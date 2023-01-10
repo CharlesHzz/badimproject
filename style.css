@@ -235,11 +235,11 @@ nav a:hover{
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
+	max-width: 1440px;
 }
 .opcoes .title{
     font-size: 27px;
     text-align: center;
-	max-width: 1440px;
     margin-top: 20px;
     color: #013e7f;
 }
