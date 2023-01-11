@@ -83,7 +83,7 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 65%;
     /*background-color: rgb(0, 122, 198, 0.08);*/
     padding: 25px;
@@ -92,12 +92,16 @@ nav a:hover{
 .banner_headline h1{
 	color:#FFFFFF;
 	font-size:70px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 	text-shadow:0px 2px 0px #000;
-    margin-top: 40px;
+    margin-top: 24px;
 	padding:0;
 }
 .banner_headline h2{
 	color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 	font-size:30px;
     text-align: justify;
 	text-shadow:0px 1px 0px #555555;
@@ -107,7 +111,7 @@ nav a:hover{
     
 }
 .banner_options {
-	height:220px;
+	height:260px;
 	display:flex;
 }
 .banner1,
@@ -116,9 +120,6 @@ nav a:hover{
 	flex:1;
 	color:#FFFFFF;
 	padding:20px;
-    margin-right: 10px;
-    border-radius: 15px;
-    border: 0.5px solid #eee;
 }
 .banner1{
     background-color: #007ac6;
@@ -152,6 +153,8 @@ nav a:hover{
 }
 
 .banner_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 	font-size:21px;
 }
 .banner_desc {
@@ -164,7 +167,6 @@ nav a:hover{
     font-weight: bold;
     letter-spacing: 5px;
     text-align: center;
-    text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
 }
 .banner_desc{
     text-align: center;
@@ -218,11 +220,7 @@ nav a:hover{
     background-color: #df8c2c;
 }
 #especi{
-
-}
-.especialidades{
-    margin: 50px auto;
-
+    border-bottom: 1px solid #df8c2c;
 }
 .especialidades h1{
     color: #44525c;
@@ -235,8 +233,8 @@ nav a:hover{
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
-	max-width: 1440px;
-	margin: auto;
+    max-width: 1440px;
+   margin: 40px auto 70px;
 }
 .opcoes .title{
     font-size: 27px;
